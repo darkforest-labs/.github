@@ -92,7 +92,7 @@ The result: AI that can hide in the noise floor.
 
 <br>
 
-[Website](https://darkforest.dev) · [Contact](mailto:hello@darkforest.dev)
+[Website](https://darkforestlabs.com) · [Contact](mailto:contact@darkforestlabs.com)
 
 </div>
 
