@@ -4,7 +4,7 @@
 
 <div align="center">
 
-# 🌲 Dark Forest Labs
+#  Dark Forest Labs
 
 **Hardware-based AI for omnispectral sensing and analog neural computing**
 
