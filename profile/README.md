@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=00FF88&center=true&vCenter=true&width=600&lines=The+universe+is+a+dark+forest.;We+build+the+sensors+to+see+in+the+dark." alt="Dark Forest Labs" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=00FF88&center=true&vCenter=true&width=600&lines=Analog+AI;Computing+with+physics+directly.;The+forest+is+dark.+We+see+anyway." alt="Dark Forest Labs" />
 </p>
 
 <div align="center">
 
 #  Dark Forest Labs
 
-**Hardware-based AI for omnispectral sensing and analog neural computing**
+**Analog AI — physical neural networks that compute with physics**
 
 *Inspired by Liu Cixin's Dark Forest hypothesis*
 
@@ -14,40 +14,50 @@
 
 </div>
 
-## The Thesis
+## The Core Idea
 
-> *"The universe is a dark forest. Every civilization is an armed hunter stalking through the trees... trying to tread without sound."*
-> 
-> — Liu Cixin, *The Dark Forest*
+We build AI that runs on physics, not software.
 
-In a universe where detection means destruction, the ability to sense without being sensed is everything. We build physical systems that can perceive across the electromagnetic spectrum with near-zero power signatures.
+Traditional AI requires massive digital infrastructure — GPUs, data centers, gigawatts of power. We're taking a different approach: **analog neural networks** that perform inference directly in the physical substrate, with no clock, no ADC, and no Von Neumann bottleneck.
+
+The result? AI systems that operate at microwatt scales while remaining invisible in the noise floor.
 
 ## What We Build
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                    PHYSICAL NEURAL NETWORKS                     │
+│                         ANALOG AI STACK                         │
 ├─────────────────────────────────────────────────────────────────┤
 │                                                                 │
 │   ┌──────────┐    ┌──────────┐    ┌──────────┐                 │
 │   │ MAGNETIC │───▶│  ANALOG  │───▶│  ULTRA   │                 │
 │   │  BUBBLE  │    │  NEURAL  │    │   LOW    │                 │
-│   │  MEMORY  │    │ COMPUTE  │    │  POWER   │                 │
+│   │  MEMORY  │    │ NETWORKS │    │  POWER   │                 │
 │   └──────────┘    └──────────┘    └──────────┘                 │
 │                                                                 │
-│   Persistent storage meets computation at the physics layer    │
+│   Storage IS computation — no memory bus, no bottleneck        │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
 ### Core Technologies
 
-| Domain | Capability |
-|--------|------------|
-| **Omnispectral Sensing** | RF through visible — see what others can't |
+| Technology | What It Does |
+|------------|--------------|
+| **Analog Neural Networks** | Inference in physics — continuous-time, massively parallel |
 | **Magnetic Bubble Memory** | Non-volatile compute substrates with femtojoule operations |
-| **Analog Neural Networks** | Inference without the Von Neumann bottleneck |
-| **Ultra-Low Power** | Microwatt-scale persistent perception |
+| **FPAA Integration** | Field-programmable analog arrays for reconfigurable analog compute |
+| **Ultra-Low Power** | Microwatt-scale persistent inference |
+
+## Why Analog?
+
+Digital AI hits fundamental limits:
+
+- **Power wall** — GPUs burn kilowatts for inference
+- **Memory wall** — data movement costs more than computation
+- **Latency wall** — clock cycles add up
+
+Analog AI sidesteps all three. Our networks compute in continuous time, where "memory" and "processing" are the same physical phenomenon.
 
 ## Applications
 
@@ -56,33 +66,31 @@ In a universe where detection means destruction, the ability to sense without be
 <td width="50%">
 
 ### 🛡️ Signal Intelligence
-Passive, persistent electromagnetic awareness for defense and security applications.
+Omnispectral sensing — RF through visible. Passive, persistent electromagnetic awareness for defense and security.
 
 </td>
 <td width="50%">
 
-### 🌍 Humanitarian Sensing
-Disaster response, environmental monitoring, and infrastructure protection where power is scarce.
+### 🌍 Edge AI
+Disaster response, environmental monitoring, infrastructure protection — anywhere power is scarce but intelligence is needed.
 
 </td>
 </tr>
 </table>
 
-## Philosophy
+## The Dark Forest Connection
 
-We reject the assumption that intelligence requires digital abstraction. Our systems compute with physics directly:
+> *"The universe is a dark forest. Every civilization is an armed hunter stalking through the trees... trying to tread without sound."*
+> 
+> — Liu Cixin, *The Dark Forest*
 
-- **No clock** — asynchronous, event-driven
-- **No ADC** — analog in, analog out
-- **No memory bus** — storage is computation
-
-The result: AI that can hide in the noise floor.
+In Liu Cixin's universe, detection means destruction. The same principle applies to sensing: the best sensor is one that cannot be detected. Our analog systems operate below the noise floor — perceiving without revealing.
 
 ---
 
 <div align="center">
 
-**We don't just build sensors. We build the eyes for a civilization that intends to survive.**
+**We don't just build AI. We build AI that can hide.**
 
 <br>
 
@@ -95,4 +103,3 @@ The result: AI that can hide in the noise floor.
 [Website](https://darkforestlabs.com) · [Contact](mailto:contact@darkforestlabs.com)
 
 </div>
-
