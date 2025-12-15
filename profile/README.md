@@ -22,25 +22,7 @@ Traditional AI requires massive digital infrastructure — GPUs, data centers, g
 
 The result? AI systems that operate at microwatt scales while remaining invisible in the noise floor.
 
-## What We Build
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                         ANALOG AI STACK                         │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│   ┌──────────┐    ┌──────────┐    ┌──────────┐                 │
-│   │ MAGNETIC │───▶│  ANALOG  │───▶│  ULTRA   │                 │
-│   │  BUBBLE  │    │  NEURAL  │    │   LOW    │                 │
-│   │  MEMORY  │    │ NETWORKS │    │  POWER   │                 │
-│   └──────────┘    └──────────┘    └──────────┘                 │
-│                                                                 │
-│   Storage IS computation — no memory bus, no bottleneck        │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
-
-### Core Technologies
+## Core Technologies
 
 | Technology | What It Does |
 |------------|--------------|
