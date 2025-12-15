@@ -47,14 +47,14 @@ Analog AI sidesteps all three. Our networks compute in continuous time, where "m
 <tr>
 <td width="50%">
 
-### 🛡️ Signal Intelligence
-Omnispectral sensing — RF through visible. Passive, persistent electromagnetic awareness for defense and security.
+### 📡 RF Imaging
+Seeing through walls with WiFi. Converting ambient RF into spatial awareness — passive sensing that reveals what cameras can't.
 
 </td>
 <td width="50%">
 
-### 🌍 Edge AI
-Disaster response, environmental monitoring, infrastructure protection — anywhere power is scarce but intelligence is needed.
+### 🧬 Biological Field Memory
+Exploring how organisms encode morphological memory in bioelectric fields. Understanding the computational substrate of regeneration.
 
 </td>
 </tr>
