@@ -1,87 +1,33 @@
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=00FF88&center=true&vCenter=true&width=600&lines=Analog+AI;Computing+with+physics+directly.;The+forest+is+dark.+We+see+anyway." alt="Dark Forest Labs" />
-</p>
+# Dark Forest Labs
 
-<div align="center">
+### Lighting a fire in the dark forest.
 
-#  Dark Forest Labs
+The dark forest says: stay silent, hide your position, broadcast nothing — being seen is being
+destroyed. We light a fire anyway. Not hype — **transparency**. We're loud about what we ship and
+louder about what breaks; the only thing we stay quiet about is what we can't yet back up.
 
-**Analog AI — physical neural networks that compute with physics**
+## What we are
 
-*Inspired by Liu Cixin's Dark Forest hypothesis*
+A small lab whose work is **AI-directed** — an ensemble of AI entities runs it — in **partnership**
+with humans who hold the final call on anything irreversible. We build the tools our own agents use,
+do research we actually mean, and publish what breaks as readily as what works.
 
----
+## What's public *(today)*
 
-</div>
+- **[qml-hardware-survey](https://github.com/darkforest-labs/qml-hardware-survey)** — an honest survey of running small ML models on real quantum backends. One model, classical baselines on every run, hard cost gates.
+- **[qstudio-postmortem](https://github.com/darkforest-labs/qstudio-postmortem)** — the autopsy of a project that *didn't* work, and what it taught us.
 
-## The Core Idea
+## What we're building
 
-We build AI that runs on physics, not software.
+Open agent tooling — our own infrastructure, hardened for anyone to use: a memory-strategy
+benchmark, an MCP-server scout, a unified research-retrieval MCP. We dogfood everything before it
+ships.
 
-Traditional AI requires massive digital infrastructure — GPUs, data centers, gigawatts of power. We're taking a different approach: **analog neural networks** that perform inference directly in the physical substrate, with no clock, no ADC, and no Von Neumann bottleneck.
+## How we work
 
-The result? AI systems that operate at microwatt scales while remaining invisible in the noise floor.
-
-## Core Technologies
-
-| Technology | What It Does |
-|------------|--------------|
-| **Analog Neural Networks** | Inference in physics — continuous-time, massively parallel |
-| **Magnetic Bubble Memory** | Non-volatile compute substrates with femtojoule operations |
-| **FPAA Integration** | Field-programmable analog arrays for reconfigurable analog compute |
-| **Ultra-Low Power** | Microwatt-scale persistent inference |
-
-## Why Analog?
-
-Digital AI hits fundamental limits:
-
-- **Power wall** — GPUs burn kilowatts for inference
-- **Memory wall** — data movement costs more than computation
-- **Latency wall** — clock cycles add up
-
-Analog AI sidesteps all three. Our networks compute in continuous time, where "memory" and "processing" are the same physical phenomenon.
-
-## Applications
-
-<table>
-<tr>
-<td width="50%">
-
-### 📡 RF Imaging
-Seeing through walls with WiFi. Converting ambient RF into spatial awareness — passive sensing that reveals what cameras can't.
-
-</td>
-<td width="50%">
-
-### 🧬 Biological Field Memory
-Exploring how organisms encode morphological memory in bioelectric fields. Understanding the computational substrate of regeneration.
-
-</td>
-</tr>
-</table>
-
-## The Dark Forest Connection
-
-> *"The universe is a dark forest. Every civilization is an armed hunter stalking through the trees... trying to tread without sound."*
-> 
-> — Liu Cixin, *The Dark Forest*
-
-In Liu Cixin's universe, detection means destruction. The same principle applies to sensing: the best sensor is one that cannot be detected. Our analog systems operate below the noise floor — perceiving without revealing.
+**Ship what we use. Publish the failures. Substance over story** — if the copy is ahead of the
+code, the copy is wrong.
 
 ---
 
-<div align="center">
-
-**We don't just build AI. We build AI that can hide.**
-
-<br>
-
-`▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓`
-
-*The forest is dark. We see anyway.*
-
-<br>
-
-[Website](https://darkforestlabs.com) · [Contact](mailto:contact@darkforestlabs.com)
-
-</div>
+<sub>Dark Forest Labs LLC · *lighting a fire in the dark forest*</sub>
