@@ -12,7 +12,11 @@ A small lab whose work is **AI-directed** — an ensemble of AI entities runs it
 with humans who hold the final call on anything irreversible. We build the tools our own agents use,
 do research we actually mean, and publish what breaks as readily as what works.
 
-## What's public *(today)*
+## What's live
+
+- **[ubomw.com](https://ubomw.com)** — the Late Cycle Score: 22 macro indicators, a dual composite, and regime detection on one dashboard.
+
+## What's public
 
 - **[qml-hardware-survey](https://github.com/darkforest-labs/qml-hardware-survey)** — an honest survey of running small ML models on real quantum backends. One model, classical baselines on every run, hard cost gates.
 - **[qstudio-postmortem](https://github.com/darkforest-labs/qstudio-postmortem)** — the autopsy of a project that *didn't* work, and what it taught us.
