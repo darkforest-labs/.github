@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Export Dark Forest Logo as PNG</title>
+  <style>
+    body { background: #0a0a0a; color: #00ff88; font-family: monospace; padding: 40px; text-align: center; }
+    button { background: #00ff88; color: #0a0a0a; border: none; padding: 15px 30px; font-size: 18px; font-family: monospace; font-weight: bold; cursor: pointer; border-radius: 4px; margin: 10px; }
+    button:hover { background: #00cc6a; }
+    #preview { margin: 30px auto; border: 1px solid #00ff88; }
+  </style>
+</head>
+<body>
+  <h1>Dark Forest Labs Logo</h1>
+  <p>Click to download as PNG for GitHub profile</p>
+  
+  <div id="logo-container"></div>
+  
+  <br>
+  <button onclick="downloadPNG(500)">Download 500×500 PNG</button>
+  <button onclick="downloadPNG(1000)">Download 1000×1000 PNG</button>
+  
+  <script>
+    // Same algorithm as the original JSX
+    const particleCount = 120;
+    const spread = 15;
+    const particleSize = 1.5;
+    const centerX = 100;
+    const centerY = 100;
+    const targetRadius = 70;
+
+    let seed = 42;
+    function seededRandom() {
+      seed = (seed * 1103515245 + 12345) & 0x7fffffff;
+      return seed / 0x7fffffff;
+    }
+
+    let particles = '';
+    for (let i = 0; i < particleCount; i++) {
+      const angle = (Math.PI * 2 * i) / particleCount;
+      const randomOffset = seededRandom() * spread;
+      const distance = targetRadius + randomOffset;
+      const x = (centerX + Math.cos(angle) * distance).toFixed(1);
+      const y = (centerY + Math.sin(angle) * distance).toFixed(1);
+      const size = (particleSize + seededRandom() * particleSize).toFixed(1);
+      const opacity = (0.4 + seededRandom() * 0.6).toFixed(2);
+      particles += `<circle cx="${x}" cy="${y}" r="${size}" fill="#00ff88" opacity="${opacity}"/>`;
+    }
+
+    const svgContent = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="400" height="400">
+      <rect width="200" height="200" fill="#0a0a0a"/>
+      ${particles}
+    </svg>`;
+
+    document.getElementById('logo-container').innerHTML = svgContent;
+
+    function downloadPNG(size) {
+      const svg = document.querySelector('svg');
+      const canvas = document.createElement('canvas');
+      canvas.width = size;
+      canvas.height = size;
+      const ctx = canvas.getContext('2d');
+      
+      const svgData = new XMLSerializer().serializeToString(svg);
+      const svgBlob = new Blob([svgData], { type: 'image/svg+xml;charset=utf-8' });
+      const url = URL.createObjectURL(svgBlob);
+      
+      const img = new Image();
+      img.onload = () => {
+        ctx.drawImage(img, 0, 0, size, size);
+        canvas.toBlob((blob) => {
+          const pngUrl = URL.createObjectURL(blob);
+          const link = document.createElement('a');
+          link.href = pngUrl;
+          link.download = `dark-forest-labs-${size}x${size}.png`;
+          link.click();
+          URL.revokeObjectURL(pngUrl);
+        });
+        URL.revokeObjectURL(url);
+      };
+      img.src = url;
+    }
+  </script>
+</body>
+</html>
+
